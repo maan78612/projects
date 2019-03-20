@@ -54,5 +54,13 @@ enum MessageStatus : Int {
 
 let status: MessageStatus = .sent
 
+enum UserStatus : Int {
+    case married = 1
+    case unmarried = 2
+    case complicated = -1
+}
+
+let status: UserStatus = .married
+
 
 print(status)
